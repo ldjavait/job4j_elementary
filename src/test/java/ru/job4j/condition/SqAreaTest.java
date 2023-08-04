@@ -11,6 +11,6 @@ class SqAreaTest {
         byte k = 2;
         double expected = 2;
         double result = SqArea.square(p, k);
-        assertThat(result).isEqualTo(expected, withPrecision(0.01));
+        assertThat(result).isEqualTo(expected, offset(0.01));
     }
 }

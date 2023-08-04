@@ -10,7 +10,7 @@ class FitTest {
         short man = 183;
         double expected = 95.44;
         double rsl = Fit.manWeight(man);
-        assertThat(rsl).isEqualTo(expected, withPrecision(0.01));
+        assertThat(rsl).isEqualTo(expected, offset(0.01));
     }
 
     @Test
@@ -18,6 +18,6 @@ class FitTest {
         short woman = 165;
         double expected = 63.24;
         double rsl = Fit.womanWeight(woman);
-        assertThat(rsl).isEqualTo(expected, withPrecision(0.01));
+        assertThat(rsl).isEqualTo(expected, offset(0.01));
     }
 }

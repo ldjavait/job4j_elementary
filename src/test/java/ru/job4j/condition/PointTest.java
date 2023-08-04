@@ -13,7 +13,7 @@ class PointTest {
         byte y2 = 0;
         double expected = 2;
         double result = Point.distance(x1, y1, x2, y2);
-        assertThat(result).isEqualTo(expected, withPrecision(0.01));
+        assertThat(result).isEqualTo(expected, offset(0.01));
     }
 
     @Test
@@ -24,6 +24,6 @@ class PointTest {
         byte y2 = 4;
         double expected = 2.82;
         double result = Point.distance(x1, y1, x2, y2);
-        assertThat(result).isEqualTo(expected, withPrecision(0.01));
+        assertThat(result).isEqualTo(expected, offset(0.01));
     }
 }

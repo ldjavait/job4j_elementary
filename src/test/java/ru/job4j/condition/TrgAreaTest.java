@@ -12,6 +12,6 @@ class TrgAreaTest {
         byte c = 2;
         double expected = 1.73;
         double result = TrgArea.area(a, b, c);
-        assertThat(result).isEqualTo(expected, withPrecision(0.01));
+        assertThat(result).isEqualTo(expected, offset(0.01));
     }
 }
