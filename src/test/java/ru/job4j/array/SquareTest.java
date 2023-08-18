@@ -13,7 +13,7 @@ class SquareTest {
     }
 
     @Test
-    public void whenBound4Than0x1x4x9x16() {
+    public void whenBound5Than0x1x4x9x16() {
         int[] rsl = Square.calculate(5);
         int[] expected = {0, 1, 4, 9, 16};
         assertThat(rsl).containsExactly(expected);
