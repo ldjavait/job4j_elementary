@@ -15,8 +15,4 @@ public class FindMinElem {
         }
         return minValue;
     }
-
-    public static void main(String[] args) {
-        int[] array = new int[]{12, 65, 3, 76, 31, 56, 90, 44, 2};
-    }
 }
