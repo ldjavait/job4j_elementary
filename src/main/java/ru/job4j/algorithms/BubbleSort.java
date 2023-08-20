@@ -26,16 +26,4 @@ public class BubbleSort {
             }
         }
     }
-
-    public static void main(String[] args) {
-        int[] a = new int[]{43, 67, 2, 90, 5, 10, 134, 47};
-        for (int i : a) {
-            System.out.println(i);
-        }
-        bubbleSort(a);
-        System.out.println("After sort:");
-        for (int i : a) {
-            System.out.println(i);
-        }
-    }
 }
