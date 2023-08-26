@@ -13,11 +13,8 @@ public class Task18 {
         Scanner input = new Scanner(System.in);
         double a = input.nextDouble();
         double r = input.nextDouble();
-        double p = 4 * a;
-        double c = 2 * (Math.PI) * r;
-        double s = Math.PI * Math.pow(r, 2);
-        String out = String.format("%.1f%n%.1f%n%.1f",
-                p, c, s);
-        System.out.println(out);
+        System.out.println(a * 4);
+        System.out.println(Math.round(2 * Math.PI * r * 10) / 10.0);
+        System.out.println(Math.round(Math.PI * Math.pow(r, 2) * 10) / 10.0);
     }
 }
