@@ -7,9 +7,9 @@ import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.CoreMatchers.notNullValue;
 
 public class FooTest {
-@Test
+    @Test
     public void whenCreate() {
-    var task = new Foo();
-    MatcherAssert.assertThat(task, is(notNullValue()));
-}
+        var task = new Foo();
+        MatcherAssert.assertThat(task, is(notNullValue()));
+    }
 }
