@@ -11,8 +11,4 @@ public class Task21 {
         num1 = number % 10;
         System.out.println(num3 + " " + num2 + " " + num1);
     }
-
-    public static void main(String[] args) {
-        separate(205);
-    }
 }
